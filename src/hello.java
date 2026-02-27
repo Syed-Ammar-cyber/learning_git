@@ -6,7 +6,8 @@ public class hello {
         System.out.println("The addition is: " + (a + b));
     }
     void mult(){
-        System.out.println("The product is: "(a * b));
+        int i = a * b;
+        System.out.println("The product is: " + i);
     }
 
     public static void main(String[] args) {
