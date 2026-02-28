@@ -10,9 +10,14 @@ public class hello {
         System.out.println("The product is: " + i);
     }
 
+    void print(){
+        System.out.println("i will put this in GitHub");
+    }
+
     public static void main(String[] args) {
         hello obj = new hello();
         obj.add();
         obj.mult();
+        obj.print();
     }
 }
